@@ -1,0 +1,117 @@
+.row {
+  margin: 0 0 0 1.5rem;
+}
+
+.hero {
+  height: 240px;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(17, 3, 9, 0.6), 
+    rgba(233, 241, 247, 0.6)), 
+  url(http://cdn2.pu.nl/media/games/zelda_wii_u/legend-of-zelda-wii-u.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border: 10px solid #714C1D;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.heroText {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banner {
+  display: block;
+  font-size: 2vw;
+  padding-top: 30px;
+  font-family: Cinzel Decorative;
+  font-weight: 700;
+  color: #C90024;
+  text-shadow: 2px 5px 4px black;
+}
+
+.rules,
+.message {
+  display: block;
+  font-size: 2rem;
+}
+
+.buttonWrapper {
+  position: absolute;
+  top: 2rem;
+  right: -35rem;
+}
+
+.buttons {
+  height: 11rem;
+}
+
+.heartWrapper {
+  top: 2rem;
+  left: -35rem;
+  width: 45%;
+  height: 2rem;
+  margin-top: -2em;
+  font-size: 5px;
+  position: absolute;
+}
+
+.heart {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin: 0 7em 4rem 2rem;
+  background: #a52a21;
+  box-shadow:
+  
+    /* white shine */
+    0 -2em 0 white,
+    -3em 0 0 white,
+    -2em -1em 0 white,
+
+    /* top shades */
+    0 -1em 0 0 #c52317,
+    -1em -2em 0 0 #c52317,
+    -2em -2em 0 0 #c52317,
+    -3em -2em 0 0 #c52317,
+    1em -2em 0 0 #c52317,
+    2em -2em 0 0 #c52317,
+    3em -2em 0 0 #c52317,
+    -4em -1em 0 0 #c52317,
+    4em -1em 0 0 #c52317,
+
+    /* fills my heart */
+    0 0 0 2em #a52a21,
+    -1em 0 0 2em #a52a21,
+    1em 0 0 2em #a52a21,
+    -3em 0 0 1em #a52a21,
+    3em 0 0 1em #a52a21,
+    0 1em 0 2em #a52a21,
+    0 3em 0 1em #a52a21,
+    0 5em 0 0 #a52a21,
+
+    /* white borders */
+    -2em -2em 0 1em white,
+    2em -2em 0 1em white,
+    -3em -1em 0 1em white,
+    3em -1em 0 1em white,
+    -4em 0 0 1em white,
+    4em 0 0 1em white,
+    -3em 1em 0 1em white,
+    3em 1em 0 1em white,
+    1em 1em 0 2em white,
+    -1em 1em 0 2em white,
+    0 2em 0 2em white,
+    0 4em 0 1em white,
+    0 6em 0 0 white;
+}
+
+.progress-bar {
+  border-radius: 1rem;
+  border: .5rem solid #fff;
+}
